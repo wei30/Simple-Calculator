@@ -1,0 +1,36 @@
+.container{
+  width: 250px;
+  height: 330px;
+  background-color: lightblue;
+  margin: 0 auto;
+  border: solid 8px grey;
+}
+#display{
+  width: 230px;
+  height: 60px;
+  margin-left: -12.5px;
+  
+}
+input{
+  width: 230px;
+  height: 60px;
+  text-align: right;
+}
+.space{
+  margin-left: 7px;
+  margin-right: 6px;
+  margin-bottom: 4.5px;
+}
+#decimal{
+  margin-left: 3px;
+  margin-right: 4px;
+  padding-right: 10.5px;
+  padding-left: 20px;
+}
+#off{
+  margin-left: 30px;
+}
+
+#multiple{
+  padding-right: 16px;
+}
