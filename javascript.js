@@ -1,5 +1,9 @@
 //building a simple calculator
 $(document).ready(function(){
+  $('#slider').click(function(){ //click the slider to change the position of the slider
+    $('#cover').css("top", "-600px");
+    $(this).hide(); //hide the slider after the slider cicked 
+  });
   var turnON = true;
      $('#off').click(function(){ //click on/off button
        var value = ''; //value that prints to the input
