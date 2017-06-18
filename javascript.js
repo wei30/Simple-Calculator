@@ -3,6 +3,10 @@ $(document).ready(function(){
   $('#slider').click(function(){ //click the slider to change the position of the slider
     $('#cover').css("top", "-600px");
     $(this).hide(); //hide the slider after the slider cicked 
+	$('#cover').click(function(){ //cover back the calculator 
+		$(this).css("top", "-288px"); //move back the cover to the original position
+		$('#slider').show(); //show the slider 
+	});
   });
   var turnON = true;
      $('#off').click(function(){ //click on/off button
